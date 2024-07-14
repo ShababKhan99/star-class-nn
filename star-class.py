@@ -147,3 +147,6 @@ if __name__ == "__main__":
 
     # Call the testing function
     model.test()
+
+    # Save model
+    torch.save(model.state_dict(), 'star_classification.pt')
